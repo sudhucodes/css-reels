@@ -53,6 +53,13 @@ body {
     border: 1px solid #474aff23;
     border-radius: 4px;
     background-color: #f1f2fb;
+    transition: 0.3s;
+}
+
+.loader-box:hover{
+    scale: 1.07;
+    border-color: #474bff;
+    cursor: pointer;
 }
 
 /* Loader 1 Styling */
